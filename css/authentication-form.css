@@ -83,3 +83,36 @@ input[type="submit"]:hover {
 .form select {
   height: 30px;
 }
+.content {
+  display: flex; 
+  flex-direction: row; 
+  gap: 25px; 
+  border-radius: 12px;
+}
+.sign-in-form {
+  display: flex; 
+  flex-direction: column;
+  
+  
+}
+#sign-in-form, #sign-up-form {
+  margin-top: 25px; 
+  display: flex; 
+  flex-direction: column; 
+  gap: 15px; 
+  flex-wrap: wrap;  
+}
+
+input {
+  border-radius: 7px; 
+}
+.form-input-control {
+  display: flex; 
+  flex-wrap: wrap; 
+}
+.form-group-horizontal-control {
+  display: flex; 
+  gap: 15px; 
+  flex-wrap: wrap; 
+}
+ 
