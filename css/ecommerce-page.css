@@ -29,17 +29,31 @@ section {
 section {
   padding-top: 40px;
 }
+#product-container {
+  display: flex; 
+  flex-wrap: wrap; 
+  gap: 25px; 
+}
 
+.categories {
+  display: flex; 
+  justify-content: center; 
+}
 .content-wrapper {
   width: 100%;
   max-width: 964px;
   margin: 0 auto;
 }
-
-.header-content {
+.options {
+  display: flex; 
+  justify-content: flex-end; 
 }
 
-.logo-search {
+.view-options {
+  display: flex; 
+  flex-direction: row; 
+  gap: 25px; 
+  justify-content: flex-end; 
 }
 
 .logo {
