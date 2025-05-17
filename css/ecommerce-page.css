@@ -31,14 +31,17 @@ section {
 }
 #product-container {
   display: flex; 
-  flex-direction: column;  
+  flex-wrap: wrap;
+  align-items: center; 
+  width: 100%; 
   gap: 25px; 
   width: 100%; 
 }
 .product {
   display: flex; 
   gap: 20px; 
-  width: 600px; 
+  flex-direction: column;
+  width: 100%; 
   
    
 }
@@ -246,7 +249,9 @@ i.fa-th-list {
 .grid .product-data {
   height: 100%;
   display: flex; 
-  width: max-content;
+  flex-direction: column;
+  gap: 20px; 
+  
   
 }
 
