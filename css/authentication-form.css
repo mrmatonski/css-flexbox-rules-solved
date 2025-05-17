@@ -108,11 +108,34 @@ input {
 }
 .form-input-control {
   display: flex; 
-  flex-wrap: wrap; 
+  flex-direction: column;
+  width: 100%; 
+  
+}
+#state, #city {
+  width: 100%; 
+  height: 30px; 
 }
 .form-group-horizontal-control {
   display: flex; 
   gap: 15px; 
-  flex-wrap: wrap; 
+  flex-direction: column;
+  width: 100%;
 }
- 
+.form-group-vertical-control {
+  display: flex; 
+  flex-direction: column;
+}
+ .logo-search {
+  display: flex; 
+  gap: 20px; 
+ }
+ .search-bar {
+  display: flex; 
+  width: 400px; 
+  background: #1f1f27;
+  padding: 10px 20px; 
+  border-radius: 20px; 
+  align-items: center;
+
+ }
