@@ -336,7 +336,7 @@ i.fa-th-list {
 /* LINES-ACTION VIEW */
 
 .lines-action.products {
-  border: 5px solid blue; 
+  
   display: flex; 
   flex-direction: row;
   
@@ -344,7 +344,7 @@ i.fa-th-list {
 }
 
 .lines-action .product {
-  border: 5px solid red; 
+   
   display: flex; 
 }
 
