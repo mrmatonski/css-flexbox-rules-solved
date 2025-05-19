@@ -99,7 +99,7 @@ input[type="submit"]:hover {
   margin-top: 25px; 
   display: flex; 
   flex-direction: column; 
-  gap: 15px; 
+  gap: 30px; 
   flex-wrap: wrap;  
 }
 
@@ -119,7 +119,6 @@ input {
 .form-group-horizontal-control {
   display: flex; 
   gap: 15px; 
-  flex-direction: column;
   width: 100%;
 }
 .form-group-vertical-control {
@@ -129,13 +128,4 @@ input {
  .logo-search {
   display: flex; 
   gap: 20px; 
- }
- .search-bar {
-  display: flex; 
-  width: 400px; 
-  background: #1f1f27;
-  padding: 10px 20px; 
-  border-radius: 20px; 
-  align-items: center;
-
  }
