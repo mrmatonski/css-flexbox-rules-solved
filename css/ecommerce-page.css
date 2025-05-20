@@ -217,7 +217,7 @@ i.fa-th-list {
   overflow: hidden;
   background-color: #2b2d36;
   display: flex; 
-  flex-direction: column;
+  flex-direction: row;
  
 }
 
@@ -266,6 +266,8 @@ i.fa-th-list {
 /* GRID VIEW STYLES */
 
 .grid.products {
+  display: flex; 
+  border: 5px solid red; 
 }
 
 .grid .product {
